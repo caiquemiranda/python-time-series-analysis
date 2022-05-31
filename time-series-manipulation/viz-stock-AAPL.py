@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt       # visualization data
 # import data and tranform time-series
 stock = pd.read_csv('./data/AAPL-5Y.csv', parse_dates=['Date'], index_col='Date')
 
-# 
+# drop columns 
 stock.drop(['Open', 'High', 'Low', 'Close', 'Volume'], axis=1, inplace=True)
 
 # last price
