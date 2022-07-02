@@ -17,6 +17,4 @@ data = pd.read_csv('./data/AirPassengers.csv',
 
 print(data[0:30])
 
-
-
 pass
